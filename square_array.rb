@@ -1,6 +1,7 @@
-array = [1,2,3,4,5]
-array.collect do |num|
-   if num.even?
-   num
-   end
+def square_array(numbers)
+  # your code here	  new_numbers = []
+end 	  numbers.each do |num|
+    new_numbers << (num ** 2)
+  end
+  return new_numbers
 end
